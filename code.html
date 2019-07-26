@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Navbars</title>
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<style type="text/css">
+
+		.headline {
+			padding-bottom: 20px;
+		}
+
+		.articles {
+			padding-bottom: 25px;
+		}
+
+		.footer {
+			background: lightgray;
+			height: 200px;
+			text-align: center;
+			padding-top: 5px;
+		}
+
+		.container {
+			padding-top: 5px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="container">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<!-- the 3 lines below show the 3 lines of the hamberger -->
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">Brand logo</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-nav-demo">
+					<ul class="nav navbar-nav">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">LINK 1</a></li>
+						<li><a href="#">LINK 2</a></li>		
+						<li><a href="#">LINK 3</a></li>	
+					</ul>	
+				</div>
+			</div>
+		</nav>	
+
+
+		<div class="container">
+			<!-- headline portion -->
+			<div class="row headline">
+				<div class="col-sm-6 headline-img"><img src="https://via.placeholder.com/300x200"></div>
+				<div class="col-sm-6">
+					<h3>HEADER ACROSS HERE</h3>
+					<p class="headline-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- center 3 by 2  -->
+		<div class="row">
+			<div class="col-sm-4 articles">
+				<div><img src="https://via.placeholder.com/200x200"></div>
+				<h4>CAPTION</h4>
+				<p>FIRST LINE OF TEXT</p>
+				<p>SECTION LINE OF TEXT</p>
+			</div>
+			<div class="col-sm-4 articles">
+				<div><img src="https://via.placeholder.com/200x200"></div>
+				<h4>CAPTION</h4>
+				<p>FIRST LINE OF TEXT</p>
+				<p>SECTION LINE OF TEXT</p>
+			</div>
+			<div class="col-sm-4 articles">
+				<div><img src="https://via.placeholder.com/200x200"></div>
+				<h4>CAPTION</h4>
+				<p>FIRST LINE OF TEXT</p>
+				<p>SECTION LINE OF TEXT</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 articles">
+				<div><img src="https://via.placeholder.com/200x200"></div>
+				<h4>CAPTION</h4>
+				<p>FIRST LINE OF TEXT</p>
+				<p>SECTION LINE OF TEXT</p>
+			</div>
+			<div class="col-sm-4 articles">
+				<div><img src="https://via.placeholder.com/200x200"></div>
+				<h4>CAPTION</h4>
+				<p>FIRST LINE OF TEXT</p>
+				<p>SECTION LINE OF TEXT</p>
+			</div>
+			<div class="col-sm-4 articles">
+				<div><img src="https://via.placeholder.com/200x200"></div>
+				<h4>CAPTION</h4>
+				<p>FIRST LINE OF TEXT</p>
+				<p>SECTION LINE OF TEXT</p>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<div class="row">
+			<div class="col-sm-3 footer">
+				<h4>HEADER ONE</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+			</div>
+			<div class="col-sm-3 footer">
+				<h4>HEADER TWO</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+			</div>
+			<div class="col-sm-3 footer">
+				<h4>HEADER THREE</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+			</div>
+			<div class="col-sm-3 footer">
+				<h4>HEADER FOUR</h4>
+				<div class="row">
+					<div>
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span></div>
+
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor.Ut enim ad minim veniam.</p>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- jquery comes before javascript! -->
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
+
+
